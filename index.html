@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<link rel="icon" 
+      type="image/icon" 
+      href="images/favicon.ico">
+	<style>
+		.parallax{
+			background-image: url("https://static.uglyhedgehog.com/upload/2013/1/30/thumb-1359529914815-head_to_head_short_lettered_larger.jpg");
+			min-height: 600px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.title{
+			background-color: rgba(255,0,255,.5);
+			background-image: linear-gradient (to top, rgba(255,255,0,.25), rgba(255,0,255,1));
+			text-align: center;
+			font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+		}
+	
+		body {
+		
+			background-color: #0000FF;
+			
+			color: #ffffff;
+		}
+		h1 {
+			text-align: center;
+			color: #0000FF
+		}
+		h5 {
+			text-align: center;
+		}
+		p{
+			size: 20px;
+		}
+		
+	</style>
+	<body>
+		<div class="title">
+			<h1>JPEG vs. TIFF!</h1>
+			<h3>October 17, 2018</h3>
+		</div>
+		<div class="parallax"></div>
+		<div class="article" style="height:1000px;">
+			<h2>Advantages and Disadvantages</h2>
+			<p>Some of the similar formats to JPEG is RAW, DNG, TIFF, GIF, and PNG. Some of the similar formats for TIFF is a PDF. JPEG works good to get the best quality picture. TIFF is good for lossless compression, GIF. TIFF can also compress image data but uses an algorithm that doesn't change source data and JPEG compression algorithm changes image data while converting it. Amount of change can be controlled but not its location. TIFF doesn’t have any compression and the JPEG does have compression to the formatted files.</p>
+			
+			<h2>Life Wire</h2>
+			<p>JPEG uses a compression format to remove some pixels that the compression algorithm deems unimportant, thereby saving some storage space. TIFF is a compression format that does not lose any information about the photo's data, either. TIFF files are much larger in data size than JPEG or RAW files. JPEG is probably the most popular and compatible image format around. JPEG is the standard file format of most of today's consumer quality digital cameras and is supported by almost all of today's imaging software. TIFF format is the standard for most commercial and professional printing needs. We use the uncompressed TIFF format meaning that no image data is lost after scanning.</p>
+</p>
+			<h2>Digital Memories</h2>
+			<p>JPEG is probably the most popular and compatible image format around. JPEG is the standard file format of most of today's consumer quality digital cameras and is supported by almost all of today's imaging software. TIFF format is the standard for most commercial and professional printing needs. We use the uncompressed TIFF format meaning that no image data is lost after scanning.</p>
+			
+			<h2>Sources</h2>
+			<p>1) William Bradford, Digital Memories, Year Published: 2017, http://www.digitalmemoriesonline.net/scan/output/jpeg_vs_tiff.htm</p>
+			
+			<p>2) Reed, Reed Ant & Imaging, Year Published: 2012, https://www.reedphoto.com/tiff-versus-jpeg-is-bigger-always-better/</p>
+			
+			<p>3) Kyle Schurman, Lifewire, Year Published: 2018, https://www.lifewire.com/differences-between-jpeg-tiff-and-raw-493186
+</p>
+
+			<h2>Images</h2>
+			<img style="height: 400px;" src="images/hayden.jpg"></img>
+			<embed height=400 src="images/hayden.tif" type="image/tiff" negative=yes>
+		</div>
+	</body>
+	<h4><img style="height: 100px;" src="images/GSHS-Tagline-Icon-White-LowRes.png"></h4>
+	<h5 id="date"></h5>
+	<script>
+		var d = new Date();  //setup a date object 
+		var month = d.getMonth()+1;  // get the month from the date object
+		var year = d.getFullYear(); //get the full year from the date object
+		var date = d.getDate();
+		var display = "" + month + "/" + date + "/" + year;
+		document.getElementById("date").innerHTML = display;
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
